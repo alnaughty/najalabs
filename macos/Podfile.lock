@@ -1,0 +1,48 @@
+PODS:
+  - audioplayers_darwin (0.0.1):
+    - FlutterMacOS
+  - desktop_window (0.0.1):
+    - FlutterMacOS
+  - flutter_libserialport (0.0.1):
+    - FlutterMacOS
+    - libserialport
+  - FlutterMacOS (1.0.0)
+  - libserialport (0.1.1)
+  - path_provider_foundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
+
+DEPENDENCIES:
+  - audioplayers_darwin (from `Flutter/ephemeral/.symlinks/plugins/audioplayers_darwin/macos`)
+  - desktop_window (from `Flutter/ephemeral/.symlinks/plugins/desktop_window/macos`)
+  - flutter_libserialport (from `Flutter/ephemeral/.symlinks/plugins/flutter_libserialport/macos`)
+  - FlutterMacOS (from `Flutter/ephemeral`)
+  - path_provider_foundation (from `Flutter/ephemeral/.symlinks/plugins/path_provider_foundation/darwin`)
+
+SPEC REPOS:
+  trunk:
+    - libserialport
+
+EXTERNAL SOURCES:
+  audioplayers_darwin:
+    :path: Flutter/ephemeral/.symlinks/plugins/audioplayers_darwin/macos
+  desktop_window:
+    :path: Flutter/ephemeral/.symlinks/plugins/desktop_window/macos
+  flutter_libserialport:
+    :path: Flutter/ephemeral/.symlinks/plugins/flutter_libserialport/macos
+  FlutterMacOS:
+    :path: Flutter/ephemeral
+  path_provider_foundation:
+    :path: Flutter/ephemeral/.symlinks/plugins/path_provider_foundation/darwin
+
+SPEC CHECKSUMS:
+  audioplayers_darwin: dcad41de4fbd0099cb3749f7ab3b0cb8f70b810c
+  desktop_window: fb7c4f12c1129f947ac482296b6f14059d57a3c3
+  flutter_libserialport: d1a505fd4b05785f7b50cc7c93b361937ea1c5bd
+  FlutterMacOS: 8f6f14fa908a6fb3fba0cd85dbd81ec4b251fb24
+  libserialport: 1cb25e66ef3c92a8e59c2ea3820302c3fa2268cd
+  path_provider_foundation: eaf5b3e458fc0e5fbb9940fb09980e853fe058b8
+
+PODFILE CHECKSUM: f429f80f5470aff39540e8333365097246b857cb
+
+COCOAPODS: 1.12.1
